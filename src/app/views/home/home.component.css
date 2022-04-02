@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Rajdhani:wght@500&family=Rambla&family=Rosarivo&family=Source+Serif+4:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    height: 84px;
+}
+#header{
+    height: 70px;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-grid{
+    width: 1920px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-gamemania img{
+    width: 313px;
+}
+#menu a{
+    display: block;
+    padding: 3.5rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'Rambla', sans-serif;
+    text-transform: lowercase;
+    font-size: 40px;
+}
+#menu a:hover{
+    background:rgba(19, 19, 19, 0.01);
+}
+#menu{
+    width: 912px;
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+.login a{
+    margin: 0px 18px 0px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Rosarivo', serif;
+    font-size: 40px;
+}
+.login{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+}
+#btn-menu{
+    display: none;
+}
+#entrar-mobile{
+    display: none;
+}
+.posicionamento-header{
+    position: relative;
+    }
+.posicao-texto{
+ padding: 0 200px;   
+}
+.banner{
+    height: 624px;
+    background-image:url("/assets/img/Group\ 2.png") ;
+    background-repeat:none ;
+    background-size: cover;
+}
+.banner-carrosel img{
+    height: 690px;
+    background-size: cover;
+    background-repeat: none;
+    display: none;
+}
+.banner-carrosel-ativo{
+    display: flex;
+}
+.texto-banner h1{
+    width: 712px;
+    color: black;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;    
+    font-size: 144px;
+}
+.texto-banner p{
+    width: 716px;
+    color: black;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif; 
+    font-size: 64px;
+}
+.texto2{
+    width: 596px;
+    color: white;
+    text-align: inherit;
+    font-family: 'Rajdhani', sans-serif; 
+    font-size: 64px;
+    justify-content: left;
+}
+.area-pesquisa{
+    background-color: black;
+    height: 147px;
+}
+.area-pesquisa input[type="search"]{
+    background-color: #3B2E46;
+    border: 0px;
+    width: 1127px;
+    height: 100px;
+    border-radius: 50px;
+}
+.area-pesquisa input[type="search"]:focus{
+    outline: 0;
+}
+input{
+    margin:24px 0px 0px;
+    padding: 0px 100px 0px;
+}
+.area-pesquisa button{
+    background-color: transparent;
+    border: none;
+    margin: -120px
+}
+.area-pesquisa input[type="search"]::placeholder{
+    width: 250px;
+    height: 96px;
+    font-size: 50px;
+}
+.area-pesquisa img{ 
+    width: 80px;
+}
+.area-icones{
+    background-color: #92879C;
+    height: 388px;
+}
+.icones img{
+    width: 208px;
+    margin: 147px 56px 0px;
+    vertical-align: baseline;
+}
+.loja-icone img{
+    width: 161px;
+}
+.carousel{
+    height: 300px;
+    background-image: url(/assets/img/Group\ 2\ \(2\).png);
+}
+.carousel-item img{
+    align-items: center;
+    width: 257px;
+}
+.banner-legal{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.banner-legal p{
+    margin: 8px 305px 13px -155px;
+    color: white;
+}
+.secao-noticias{
+    height: 1230px;
+    background-image: url(/assets/img/Group\ 3.png);
+    background-repeat: none;
+    background-size: cover;
+}
+.secao-noticias{
+    display: block;
+}
+.texto-sobre{
+    color: white;
+    margin: 0 0 0 527px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
+.texto-sobre h2{
+    margin: 66px 0px;
+    font-weight: 900;
+    font-family: 'Source Serif 4',sans-serif;
+    font-size: 96px;
+}
+.texto-sobre p{
+    font-size: 48px;
+    font-family:'Source Serif 4',sans-serif ;
+    margin: 0 250px;
+}
+.mobile{
+    display: none;
+}
+.secao-marcas{
+    height: 100px;
+    background-color: black;
+}
+.marcas{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.marcas img{
+    width: 275px;
+    }
+.riot img{
+    width: 140px;
+}
+.razer img{
+    width: 390px;
+}
+footer{
+    background-color: #281845;
+}
+.rodape{
+    justify-content: space-between;
+    display: flex;
+    padding: 120px 0px;
+}
+.links-footer{
+    justify-content: space-around;
+    display: flex;
+}
+.links{
+    margin: 0 90px;
+}
+.links ul{
+    color: white;
+}
+.links a{
+    font-size: 36px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Rambla', sans-serif;
+}
+.contatos{
+    padding: 157px 169px;
+}
+.contatos h2{
+    color: white;
+    font-family: 'Rambla', sans-serif;
+    text-align: center;
+}
+.contatos img{
+    width: 100px;
+}
+@media screen and (max-width: 1200px) {
+    #nav{
+        display: flex;
+    }
+    #menu a{
+        padding: .5rem;
+    }
+    .logo-gamemania{
+        width: 200px;
+    }
+    .container-grid{
+        width: 90%;
+    }
+    #menu{
+        display: none;
+        width: 250px;
+        height: 300px;
+        position: absolute;
+        top: 70px;
+        right: 0px;
+        background-color: black;
+        z-index: 1000;
+    }
+    #btn-menu{
+        display: block;
+    }
+    #btn-menu img{
+        width: 50px;
+    }
+    #nav.active #menu{
+        display: block;
+    }
+    .login{
+        display: none;
+    }
+    #entrar-mobile{
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        border-radius: 15px;
+        background-color: #591283;
+        font-weight: bold;
+        width: 84px;
+        margin: 32px 0px 0px 0px;
+        height: 26px;
+        font-family: 'Rambla', sans-serif;
+    }
+    .barras{
+        display: block;
+        width: 50px;
+        left: 0px;
+        position: relative;
+    }
+    #barras{
+        display: block;
+    }
+    #menu.active #barras{
+        display: flex;
+    }
+    button{
+        background-color: transparent;
+        border: none;
+        margin: 18px;
+    }
+    .banner{
+        height: 269px;
+        background-repeat: none;
+    }
+    .posicao-texto{
+        padding:0 91px;
+    }
+    .texto-banner h1{
+        width: 244px;
+        font-size: 50px;
+    }
+    .texto-banner p{
+        width: 275px;
+        font-size: 34px;
+    }
+    .texto2{
+        width: 394px;
+        font-size: 35px;
+    }
+    .area-pesquisa{
+        height: 72px;
+        width: 100%;
+    }
+    .area-button{
+        width: 800px;
+    }
+    .area-pesquisa input[type="search"]{
+        width: 644px;
+        height:50px ;
+    }
+    .area-pesquisa input[type="search"]::placeholder{
+        width: 250px;
+        height: 96px;
+        font-size: 40px;
+    }
+    input {
+        margin: 11px 42px 0px;
+        padding: 10px 35px 4px;
+    }
+    .area-pesquisa img {
+        width: 60px;
+    }
+    .area-icones{
+        height: 178px;
+    }
+    .icones{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 644px;
+    }
+    .icones img{
+        width: 122px;
+        margin: 56px 0px 0px 0px;
+    }
+    .loja-icone img{
+        width: 88px;
+    }
+    .carousel{
+        height: 195px;
+    }
+    .carousel-item img{
+        margin: 0 9px;
+        width: 170px;
+    }
+    .banner-legal p{
+        margin: 8px 129px 13px -155px;
+    }
+    .produtos-carrousel{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .produtos-carrousel img {
+        width: 132px;
+        margin: 0 0 0 0 ;
+    }
+    .secao-noticias{
+        height: 900px;
+        background-image: url(/assets/img/notocias.png);
+    }
+    .conteudo-sobre{
+        padding: 90px 0;
+    }
+    .texto-sobre{
+        margin: 0 0 0 0;
+    }
+    .texto-sobre p{
+        display: none;
+    }
+    .texto-sobre h2{
+        margin: 0 0 0 0;
+        font-size: 65px;
+    }
+    .mobile{
+        display: inline-block;
+        color: white;
+        font-family: 'Source Serif 4',sans-serif;
+    }
+    .mobile p{
+        margin: 164px 25px 0px 357px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .secao-marcas{
+        height: 41;
+    }
+    .marcas{
+        justify-content: space-around;
+    }
+    .marcas img{
+        width: 215px;
+        margin: 0 0 0 0 ;
+    }
+    .razer img {
+        width: 280;
+    }
+    .riot img {
+        width: 135px;
+    }
+    .links-footer{
+
+        justify-content: space-around;
+    }
+    .links-footer a{
+        font-size: 24px;
+    }
+    .rodape{
+        display: inherit;
+    }
+    .contatos {
+        padding: 0 0 0 0;
+        margin: 0 87px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    header{
+        height: 55px;
+    }
+    img, svg {
+    width: 175px;
+    align-items: center;
+    margin: 0px 8px 0px 6px;
+    }
+    .menu{
+        flex-direction: column;
+        display: none;
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        top: 0;
+        background-color: black;
+    }
+    .login a{
+        font-family: 'Rambla', sans-serif;
+        display: none;
+    }
+    #menu{
+        display: none;
+    }
+    #barras{
+        display: block
+    }
+    button{
+        background-color: transparent;
+        border: none;
+        margin: 25px;
+    }
+    #menu.active #barras{
+        display: flex;
+    }
+    .banner{
+        height: 335px;
+        background-image: url(/assets/img/Banner.png);
+    }
+    .banner-legal p {
+    width: 1px;
+    margin: 0px 82px 0px -63px;
+    }
+    .posicao-texto{
+        padding: 0 135px;
+        display: block;
+    }
+    .texto-banner{
+        padding: 47px 0px 0px;
+    }
+    .texto-banner h1{
+        width: 100%;
+    }
+    .texto-banner p{
+        width: 100%;
+    }
+    .texto2{
+        text-align: center;
+    }
+    .area-pesquisa{
+        height: 42px;
+    }
+    .area-button{
+        width: 440px;
+    }
+    .area-pesquisa input[type="search"] {
+        width: 260px;
+        height: 27px;
+    }
+    .area-pesquisa input[type="search"]::placeholder{
+        width: 250px;
+        height: 96px;
+        font-size: 20px;
+    }
+    input {
+        margin: 8px 65px 0px;
+        padding: 0px 26px 0px;
+    }
+    .area-pesquisa img {
+        width: 37px;
+    }
+    .area-icones{
+        height: 68px;
+    }
+    .icones{
+        width: 430px;
+    }
+    .icones img{
+        width: 63px;
+        margin: 10px 0px 0px 0px;
+    }
+    .loja-icone img{
+        width: 45px;
+    }
+    .carrousel{
+        height: 108px;
+    }
+    .produtos-carrousel img{
+        width: 100px;
+    }
+    .secao-noticias{
+        height:555px ;
+    }
+    .conteudo-sobre{
+        padding: 35px 0;
+    }
+    .texto-sobre h2{
+        font-size: 47px;
+    }
+    .mobile p{
+        margin: 50px 25px 0px 357px;
+        font-size: 20px;
+    }
+    .secao-marcas{
+        height:36px ;
+    }
+    .marcas img{
+        width: 103px;
+    }
+    .riot img{
+        width: 49px;
+    }
+    .rodape{
+        padding: 57px 0;
+    }
+    .links{
+        margin: 0 0 0 0;
+    }
+    .links-footer a{
+        font-size: 13px;
+    }
+    .contatos{
+        padding: 0 0 0 0;
+        margin: 87px;
+    }
+    .contatos img {
+        margin: 0 0 0 0;
+        width: 53px;
+    }
+}
