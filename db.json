@@ -1,0 +1,14 @@
+{
+  "noticias": [
+    {
+      "id": 1,
+      "titulo": "PUBG: New State já está disponível para celulares",
+      "descricao": "Desenvolvido pela Tencent, PUBG Mobile é a versão mobile licenciada de PLAYERUNKNOWN's Battlegrounds, grande sucesso da PUBG Corp. Mantendo a mesma proposta de Battle Royale do título original (100 jogadores entram num mapa e somente um deles sai vivo), o game se tornou um grande sucesso ao exigir hardwares menos poderosos e ao adaptar bem sua jogatina ao ambiente mobile."
+    },
+    {
+      "titulo": "hoje ta calor",
+      "descricao": "esepero que amanhã esteja friu",
+      "id": 2
+    }
+  ]
+}
