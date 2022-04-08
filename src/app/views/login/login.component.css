@@ -4,8 +4,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body{
-    background-image: url(/assets/img/imagenlogin1.png);
+.imagenlogin1{
+     background-image: url("src/assets/img/imagenlogin1.png");
+     background-size: cover;
+     height: 100vh;
 }
 header{
     background-color: black;

@@ -13,7 +13,7 @@ import { LoginComponent } from './views/login/login.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
   ],
   imports: [
     FormsModule,

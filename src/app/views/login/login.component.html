@@ -1,17 +1,18 @@
-<body>
+<div class="imagenlogin1">
     <header>
         <div class="cabeçalho-login container">
             <a routerLink=""><img src="/assets/img/Game Mania.png" alt="logo-gamemania"></a>
         </div>
     </header>
 <div class="login-blocos">
-    <form #userForm="ngForm">
+    <form #userForm="ngForm" (ngSubmit)="logar()">
         <h1>Login</h1>
-            <input type="email" id="email" placeholder="E-mail" [(ngModel)]="userModel.email">
-            <input type="password" id="senha" placeholder="Senha"[(ngModel)]="userModel.senha">
+            <input type="email" id="email" name="email" placeholder="E-mail" [(ngModel)]="loginModel.email">
+            <input type="password" id="password" name="password" placeholder="Senha"[(ngModel)]="loginModel.password">
             <button type="submit" name="ação" value="Enviar">Entrar</button>
         <a href="">Esqueceu sua senha?</a>
         <a href="">Cadastre-se</a>
     </form>
+    <p id="mensagem" *ngIf=" mensagem != '' "> {{ mensagem }} </p>
 </div>
-</body>
+</div>
