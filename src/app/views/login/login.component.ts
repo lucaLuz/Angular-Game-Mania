@@ -45,7 +45,7 @@ export class LoginComponent implements OnInit {
         this.usuarioLogado = response.body.user.nome
         // console.log(response)
         console.log(this.usuarioLogado)
-        // this.router.navigateByUrl('')
+        this.router.navigateByUrl('')
       }, (respostaErro) => {
         this.mensagem = respostaErro.error
       })      

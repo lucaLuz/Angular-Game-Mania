@@ -10,10 +10,7 @@ export class LoginService {
 
   constructor(private httpClient: HttpClient) { }
 
-  url = "http://localhost:3000/users"
-
-  // headers: 'Content-Type': 'application/json'
-  // observe: "response"
+  url = "http://localhost:3000/login"
 
   login(user: User): Observable<any> {
     return this.httpClient.post(this.url, JSON.stringify(user), {

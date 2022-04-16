@@ -1,12 +1,6 @@
 {
   "users": [
     {
-      "email": "luiza@gmail.com",
-      "password": "batata1",
-      "nome": "luiza",
-      "id": 1
-    },
-    {
       "email": "sara1@email.com",
       "password": "$2a$10$/VtDGQxi0t30GwGfqZZnHOHj0UEPvjNt6b6.dQFxKzZ8MAapz1ZIK",
       "nome": "sara",
@@ -21,6 +15,21 @@
       "email": "lucaluz24@yahoo.com",
       "password": "$2a$10$pe3k.HGK/agEak52NzyBsOwNx25SSoN2AJeKE/Z5BorDn7YxrqNta",
       "id": 4
+    },
+    {
+      "email": "luiza123@gmail.com",
+      "password": "$2a$10$xKWT9TazoQd2ILCv55Ewb.ygLp/zY8DHvmtAjfY73eD3269tzSXIK",
+      "id": 5
+    },
+    {
+      "email": "luiza@gmail.com",
+      "password": "$2a$10$5109i7AhviXUcrtBZQbyKuJpNrz4Zd/KJtHqqoEA7DIVVAEySBa1C",
+      "id": 6
+    },
+    {
+      "email": "lucaluz78@gmail.com",
+      "password": "$2a$10$19tw5mhaL3gl4H3w05SRKuFpUXtCc4RJ5lQ/YcxLRT3SJJyUswP1W",
+      "id": 7
     }
   ],
   "noticias": [

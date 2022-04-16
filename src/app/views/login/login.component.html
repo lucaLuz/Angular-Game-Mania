@@ -1,3 +1,4 @@
+<body>
 <div class="imagenlogin1">
     <header>
         <div class="cabeçalho-login container">
@@ -9,7 +10,7 @@
         <h1>Login</h1>
             <input type="email" id="email" name="email" placeholder="E-mail" [(ngModel)]="loginModel.email">
             <input type="password" id="password" name="password" placeholder="Senha"[(ngModel)]="loginModel.password">
-            <button type="submit" name="ação" value="Enviar">Entrar</button>
+            <button type="submit" name="ação" id="botão" value="Enviar">Entrar</button>
         <a href="">Esqueceu sua senha?</a>
         <a href="">Cadastre-se</a>
     </form>
@@ -17,3 +18,4 @@
     <p *ngIf=" usuarioLogado != '' ">{{ usuarioLogado }}</p>
 </div>
 </div>
+</body>
